@@ -1,6 +1,13 @@
 Myapp::Application.routes.draw do
   get "home/index"
   get "home/minor"
+  get "home/education"
+  get "home/experience"
+  get "home/hobbies"
+  get "home/languages"
+  get "home/personal"
+  get "home/volunteering"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
