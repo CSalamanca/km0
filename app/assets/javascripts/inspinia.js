@@ -97,7 +97,7 @@ $(document).ready(function () {
     });
 
     // Minimalize menu
-    $('.navbar-minimalize').click(function () {
+    $('.navbar-minimalize').on('click', function () {
         $("body").toggleClass("mini-navbar");
         SmoothlyMenu();
 
@@ -128,7 +128,7 @@ $(document).ready(function () {
 
         if ($('body').hasClass('fixed-nav')) {
             if (navbarHeigh > wrapperHeigh) {
-                $('#page-wrapper').css("min-height", navbarHeigh  + "px");
+                $('#page-wrapper').css("min-height", navbarHeigh + "px");
             } else {
                 $('#page-wrapper').css("min-height", $(window).height() - 60 + "px");
             }
@@ -287,5 +287,3 @@ function WinMove() {
         })
         .disableSelection();
 }
-
-
