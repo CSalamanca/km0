@@ -1,18 +1,18 @@
 Myapp::Application.routes.draw do
-  get "home/index"
-  get "home/minor"
-  get "home/education"
-  get "home/experience"
-  get "home/hobbies"
-  get "home/languages"
-  get "home/personal"
-  get "home/volunteering"
+  get "userhome/index"
+  get "userhome/minor"
+  get "userhome/education"
+  get "userhome/experience"
+  get "userhome/hobbies"
+  get "userhome/languages"
+  get "userhome/personal"
+  get "userhome/volunteering"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-root to: 'home#index'
+root to: 'userhome#index'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
