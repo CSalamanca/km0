@@ -1,62 +1,46 @@
 <nav class="navbar-default navbar-static-side" role="navigation">
     <div class="sidebar-collapse">
         <ul class="nav metismenu" id="side-menu">
-<!--
             <li class="nav-header">
                 <div class="dropdown profile-element">
+                    <span>
+                        <img alt="image" class="img-circle" src="<%= image_url 'profile_small.jpg' %>"/>
+                    </span>
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                         <span class="clear">
                             <span class="block m-t-xs">
-                                <strong class="font-bold">Example user</strong>
-                            </span> <span class="text-muted text-xs block">Example menu <b class="caret"></b></span>
+                                <strong class="font-bold">David Williams</strong>
+                            </span> <span class="text-muted text-xs block">Art Director <b class="caret"></b></span>
                         </span>
                     </a>
                     <ul class="dropdown-menu animated fadeInRight m-t-xs">
-                        <li><a href="#">Logout</a></li>
+                        <li><a href="">Profile</a>
+                        </li>
+                        <li><a href="">Contacts</a>
+                        </li>
+                        <li><a href="">Mailbox</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="">Logout</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="logo-element">
                     IN+
                 </div>
             </li>
-//-->
-            <li class="<%= 'active' if current_page?('/') %>">
-                <%= link_to "/" do %>
-                <i class="fa fa-laptop"></i> <span class="nav-label">Resumen Global</span>
-                <% end %>
-            </li>
-            <li class="<%= 'active' if current_page?('/userhome/personal') %>">
-                <%= link_to "/userhome/personal" do %>
-                <i class="fa fa-user"></i> <span class="nav-label">Personal</span>
-                <% end %>
-            </li>
-            <li class="<%= 'active' if current_page?('/userhome/education') %>">
-                <%= link_to "/userhome/education" do %>
-                <i class="fa fa-graduation-cap"></i> <span class="nav-label">Educación</span>
-                <% end %>
-            </li>
-            <li class="<%= 'active' if current_page?('/userhome/experience') %>">
-                <%= link_to "/userhome/experience" do %>
-                <i class="fa fa-briefcase"></i> <span class="nav-label">Experiencia</span>
-                <% end %>
-            </li>
-            <li class="<%= 'active' if current_page?('/userhome/languages') %>">
-                <%= link_to "/userhome/languages" do %>
-                <i class="fa fa-language"></i> <span class="nav-label">Idiomas</span>
-                <% end %>
-            </li>
-            <li class="<%= 'active' if current_page?('/userhome/hobbies') %>">
-                <%= link_to "/userhome/hobbies" do %>
-                <i class="fa fa-paper-plane"></i> <span class="nav-label">Hobbies</span>
-                <% end %>
-            </li>
-            <li class="<%= 'active' if current_page?('/userhome/volunteering') %>">
-                <%= link_to "/userhome/volunteering" do %>
-                <i class="fa fa-hand-o-up"></i> <span class="nav-label">Voluntariado</span>
-                <% end %>
+            <li class="<%= is_active_controller('forms') %>">
+                <a href="#"><i class="fa fa-user"></i> <span class="nav-label" data-i18n="nav.forms">Perfil</span></a>
+                <ul class="nav nav-second-level collapse <%= is_active_controller('userhome') %>">
+                    <li class="<%= is_active_action('education') %>"><%= link_to "Educacion", userhome_education_path %></li>
+                    <li class="<%= is_active_action('experience') %>"><%= link_to "Experiencia", userhome_experience_path %> </li>
+                    <li class="<%= is_active_action('hobbies') %>"><%= link_to "Hobbies", userhome_hobbies_path %> </li>
+                    <li class="<%= is_active_action('languages') %>"><%= link_to "Idiomas", userhome_languages_path %> </li>
+                    <li class="<%= is_active_action('personal') %>"><%= link_to "Personal", userhome_personal_path %> </li>
+                    <li class="<%= is_active_action('volunteering') %>"><%= link_to "Voluntariado", userhome_volunteering_path %> </li>
+                </ul>
             </li>
         </ul>
 
     </div>
 </nav>
-

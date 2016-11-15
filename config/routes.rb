@@ -1,9 +1,10 @@
 Myapp::Application.routes.draw do
 
-  root to: 'userhome#index'
+  # You can have the root of your site routed with "root"
+  root to: 'userhome#personal'
 
+  # All routes
   get "userhome/index"
-  get "userhome/minor"
   get "userhome/education"
   get "userhome/experience"
   get "userhome/hobbies"
@@ -11,56 +12,118 @@ Myapp::Application.routes.draw do
   get "userhome/personal"
   get "userhome/volunteering"
 
-  # The priority is based upon order of creation: first created -> highest priority.
-  # See how all your routes lay out with "rake routes".
+  get "layoutsoptions/index"
+  get "layoutsoptions/off_canvas"
 
-  # Example of regular route:
-  #   get 'products/:id' => 'catalog#view'
+  get "graphs/flot"
+  get "graphs/morris"
+  get "graphs/rickshaw"
+  get "graphs/chartjs"
+  get "graphs/chartist"
+  get "graphs/peity"
+  get "graphs/sparkline"
+  get "graphs/c3charts"
 
-  # Example of named route that can be invoked with purchase_url(id: product.id)
-  #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
+  get "mailbox/inbox"
+  get "mailbox/email_view"
+  get "mailbox/compose_email"
+  get "mailbox/email_templates"
+  get "mailbox/basic_action_email"
+  get "mailbox/alert_email"
+  get "mailbox/billing_email"
 
-  # Example resource route (maps HTTP verbs to controller actions automatically):
-  #   resources :products
+  get "metrics/index"
 
-  # Example resource route with options:
-  #   resources :products do
-  #     member do
-  #       get 'short'
-  #       post 'toggle'
-  #     end
-  #
-  #     collection do
-  #       get 'sold'
-  #     end
-  #   end
+  get "widgets/index"
 
-  # Example resource route with sub-resources:
-  #   resources :products do
-  #     resources :comments, :sales
-  #     resource :seller
-  #   end
+  get "appviews/contacts"
+  get "appviews/profile"
+  get "appviews/profile_two"
+  get "appviews/contacts_two"
+  get "appviews/projects"
+  get "appviews/project_detail"
+  get "appviews/file_menager"
+  get "appviews/vote_list"
+  get "appviews/calendar"
+  get "appviews/faq"
+  get "appviews/timeline"
+  get "appviews/pin_board"
+  get "appviews/teams_board"
+  get "appviews/social_feed"
+  get "appviews/clients"
+  get "appviews/outlook_view"
+  get "appviews/blog"
+  get "appviews/article"
+  get "appviews/issue_tracker"
 
-  # Example resource route with more complex sub-resources:
-  #   resources :products do
-  #     resources :comments
-  #     resources :sales do
-  #       get 'recent', on: :collection
-  #     end
-  #   end
+  get "pages/search_results"
+  get "pages/lockscreen"
+  get "pages/invoice"
+  get "pages/invoice_print"
+  get "pages/login"
+  get "pages/login_2"
+  get "pages/forgot_password"
+  get "pages/register"
+  get "pages/not_found_error"
+  get "pages/internal_server_error"
+  get "pages/empty_page"
 
-  # Example resource route with concerns:
-  #   concern :toggleable do
-  #     post 'toggle'
-  #   end
-  #   resources :posts, concerns: :toggleable
-  #   resources :photos, concerns: :toggleable
+  get "miscellaneous/notification"
+  get "miscellaneous/nestablelist"
+  get "miscellaneous/timeline_second_version"
+  get "miscellaneous/forum_view"
+  get "miscellaneous/forum_post_view"
+  get "miscellaneous/google_maps"
+  get "miscellaneous/datamaps"
+  get "miscellaneous/social_buttons"
+  get "miscellaneous/code_editor"
+  get "miscellaneous/modal_window"
+  get "miscellaneous/validation"
+  get "miscellaneous/tree_view"
+  get "miscellaneous/chat_view"
+  get "miscellaneous/agile_board"
+  get "miscellaneous/diff"
+  get "miscellaneous/pdf_viewer"
+  get "miscellaneous/sweet_alert"
+  get "miscellaneous/idle_timer"
+  get "miscellaneous/spinners"
+  get "miscellaneous/live_favicon"
+  get "miscellaneous/masonry"
+  get "miscellaneous/tour"
+  get "miscellaneous/loading_buttons"
+  get "miscellaneous/clipboard"
+  get "miscellaneous/truncate"
+  get "miscellaneous/i18support"
 
-  # Example resource route within a namespace:
-  #   namespace :admin do
-  #     # Directs /admin/products/* to Admin::ProductsController
-  #     # (app/controllers/admin/products_controller.rb)
-  #     resources :products
-  #   end
+  get "uielements/typography"
+  get "uielements/icons"
+  get "uielements/draggable_panels"
+  get "uielements/resizeable_panels"
+  get "uielements/buttons"
+  get "uielements/video"
+  get "uielements/tables_panels"
+  get "uielements/tabs"
+  get "uielements/notifications_tooltips"
+  get "uielements/helper_classes"
+  get "uielements/badges_labels_progress"
+
+  get "gridoptions/index"
+
+  get "tables/static_tables"
+  get "tables/data_tables"
+  get "tables/foo_tables"
+  get "tables/jqgrid"
+
+  get "commerce/products_grid"
+  get "commerce/products_list"
+  get "commerce/product_edit"
+  get "commerce/product_detail"
+  get "commerce/orders"
+  get "commerce/cart"
+  get "commerce/payments"
+
+  get "cssanimations/index"
+
+  get "landing/index"
 
 end
