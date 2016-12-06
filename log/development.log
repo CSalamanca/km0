@@ -1,0 +1,765 @@
+
+
+Started GET "/" for 10.0.2.2 at 2016-12-06 09:19:38 +0000
+Processing by UserhomeController#personal as HTML
+  Rendered userhome/personal.html.erb within layouts/application (9286.6ms)
+  Rendered layouts/_skinconfig.html.erb (0.9ms)
+  Rendered layouts/_navigation.html.erb (1.9ms)
+  Rendered layouts/_topnavbar.html.erb (3.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered layouts/_rightsidebar.html.erb (6.1ms)
+Completed 200 OK in 9808ms (Views: 9788.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/iCheck/custom.self-4e98e0ab923db379510575d0cd9b1f6b32fe6c2737db9de784119b29d80e405e.css?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/steps/jquery.steps.self-564cea8e2a652f4370e7777b3d93e3d62b7cd719099aab1d3163fdc2a299efa8.css?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/summernote/summernote.self-eb6a6894d6e3108aba5d08fd4740cd9f01b40ec94b331a17b1441d4aae3406c2.css?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/summernote/summernote-bs3.self-972005d9d65c7bb1842821c28847269a9d07420f0e2af6f79da5413e6b761957.css?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/colorpicker/css/bootstrap-colorpicker.min.self-c75560f6acb4843c5258431163165c5d0183dc5e2f79e0053d3f458c26dd692b.css?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/cropper/cropper.min.self-e085c86b5db6a1ed8878bb4fcb0fe23b5631155ee0081e19e23afb25e94906cb.css?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/dropzone/basic.self-be0469a004d4d65f39e767ea285f148c8330f8904af10c284e9297df7c40723e.css?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/dropzone/dropzone.self-86d3b50e8ce9584e9045a86d03f12ae5b89b5799cfdb819efc7862b95a906c08.css?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/datapicker/datepicker3.self-cfa0b477522abdf51bcb8c0bb350b1e38141bdf4d8b14dfc53efb6a103c90bdf.css?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/ionRangeSlider/ion.rangeSlider.self-102ed6d583e0f0c4363004982ff2975e3f83019d25de7e23745153d8ac52bfd9.css?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/ionRangeSlider/ion.rangeSlider.skinFlat.self-a9678380a5fdcb49f78b62d6e8641b5d4a0ebbafcc770b92069ae630b8d2e1d3.css?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/switchery/switchery.self-ee9acac097663bde9df3bae2400421c72d98b514db88b75a4ad6826c1a7328b0.css?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/nouslider/jquery.nouislider.self-6a1bcdb9e19b99c342e2d49fb9cfe4eb62c2e1aa89abf548cd3d7974ac9605c3.css?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/chosen/bootstrap-chosen.self-6d7a12bee85cdf88df8fce9f0358bee1a5940502f7c98a0c2409d0361428a379.css?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/jasny/jasny-bootstrap.min.self-be0f85e926dc058daa270a2f1978b3dbf7629d6a0e7feda80158644daeee3e28.css?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/daterangepicker/daterangepicker-bs3.self-3cdebce209651fd191870a9d5f2e7802f2f7dba999410ecceedd103ae2c3d918.css?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/select2/select2.min.self-6d1dbbfdb1e2ed35c13c0b045daf4bc490ab52f42e9d260d1b3fce8704860383.css?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/bootstrap-markdown/bootstrap-markdown.min.self-4a541219e81286b9224483974163bfa50b32083312ab4e774a3865c30d90099e.css?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.self-984d6e82dce7262e5c27733ab7c2521a1f25f4a3ec2a1839620e053d3eec78bb.css?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/touchspin/jquery.bootstrap-touchspin.min.self-3a4138fbac2fad6ce52581e475de7318a1d955a5d19828afd74d7892b6140b29.css?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/dualListbox/bootstrap-duallistbox.min.self-0f3139328032a1dc1c4ad74b6373ece5796f56003948bfd8a9ae8f08376acfc7.css?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/clockpicker/clockpicker.self-b02dee054c24eef1b956a329b48d83dd89cc04d9494960b723ff09b52d56e37c.css?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/bootstrap-tagsinput/bootstrap-tagsinput.self-f9d29846b772f9c28fe4a0ffe266bf4411a7e7b4650898353af2731a4b3f1359.css?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/codemirror/ambiance.self-8d95a273c5d1abd77a0de98a6269edd24222cf1dc85e4d106ca50c7856accab5.css?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/codemirror/codemirror.self-7d548963711359c4638ec787ca590abde8886ec3ebb9983230193ff8bcef3824.css?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/userhome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/application.self-a07f2f758518b7164b7741b3dc17627baae988de3f41f86fe60043f6feb4e16c.css?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/animate/animate.self-c68696b7a5a7ae005b8b881d242e513254447b55d309488e4cc8d844b898a784.css?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/style.self-7700edbe62ca4f03034bea3989f96c0e651753a7bcf5cd3a9e321c573446b12e.css?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/jquery/jquery-2.1.1.self-cdd78b0dc506b751b442bb5e5298ea658af2ee55e46ccb88ba5583570ca686e2.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/font-awesome.self-2d17540bab3759939e910ca38a695f014e0c777ded3ad7a01c4658b9d3fc980d.css?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/metisMenu/jquery.metisMenu.self-587029531d977fc7fa10623dd670189a298bd606124c23fc2edd051da5b0c914.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/pace/pace.min.self-9bf6d667514a59744d5db2c9392aaf5595dec9c131a425ababa1cb8cddb814f2.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/slimscroll/jquery.slimscroll.min.self-a2008e2992d055fbe5108d326a54c3083f843da1a30240d2b2e1f706716fa03e.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/application.self-0250c430e7a2284fb865f9b5e4b314f2ef08d0d1eae2f5f4791fa0b28e3c8b6b.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/inspinia.self-7ffe17336f75a7999e2637c24ab6de1e67711f21d4466c332ef38b6039c61a06.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/peity/jquery.peity.min.self-87cebcc460783e0d61faa78980090e6fab75e4ab5c80b776c5f38e394c1a54bd.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/iCheck/icheck.min.self-9f36bbf45d40064879b45027799fce4c617d7ceef312dfdd81a0a724754fb44a.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/dropzone/dropzone.self-ba7ef3899c1cac37283f5611116c0ad77f9369ea5bd727ba187fbcbb20d271d9.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/summernote/summernote.min.self-98baa5b7d6c91f71ac7c418e94c545c6620cfbc5c28da8dde12eaa812548db71.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/colorpicker/bootstrap-colorpicker.min.self-a634dfce68bf2f85f5caf5ebec8fc4828622f502ea061d985e720f7f0f6f99ad.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/validate/jquery.validate.min.self-e27883b3cf3329ba64a4b65fcfabe45102fe636c21660356f51619b5ede9e43f.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/staps/jquery.steps.min.self-94d2c38e75bd48129fbe0e9a0f7af3c5b914252fd682dde4088f0b300101db6c.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:48 +0000
+
+
+Started GET "/assets/cropper/cropper.min.self-b1f7900407e3412e3dfa02d7017ba0ccab4231fb2a7a1a27c9f00d334f7476f6.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:49 +0000
+
+
+Started GET "/assets/datapicker/bootstrap-datepicker.self-01cd3bf86245b38d0415b39e29f486b62189cc7b2c9de85511529341595db0bd.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:49 +0000
+
+
+Started GET "/assets/ionRangeSlider/ion.rangeSlider.min.self-869e5fa5d1bd5cab9853946e38de3ba030f5bdd976b8dab7f2a5146995a4bdda.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:49 +0000
+
+
+Started GET "/assets/fontawesome-webfont-aadc3580d2b64ff5a7e6f1425587db4e8b033efcbf8f5c332ca52a5ed580c87c.woff2?v=4.3.0" for 10.0.2.2 at 2016-12-06 09:19:49 +0000
+
+
+Started GET "/assets/jsKnob/jquery.knob.self-67754b82b0a96c71e05363ba75a20d060fcf9835a4c9b33a5bc3145a31e340f2.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:49 +0000
+
+
+Started GET "/assets/jasny/jasny-bootstrap.min.self-4baa524b709c1302251cb1003d063e410d3d4457c7e3d07801b6a185343688fc.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:49 +0000
+
+
+Started GET "/assets/switchery/switchery.self-af6af954fddcd82662060b2f72e21c50231d7179922853a18f1cce35d550764b.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:49 +0000
+
+
+Started GET "/assets/nouslider/jquery.nouislider.min.self-06e7e9ccacfa13495762ca7083ffb0586303af26766b5846119d36d68e0b02b2.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:49 +0000
+
+
+Started GET "/assets/fullcalendar/moment.min.self-47f3f0f0f331b237c5584a60bfc321301c0d9a5651dd70c635af1e17be68d5bb.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:49 +0000
+
+
+Started GET "/assets/chosen/chosen.jquery.self-2cbdc889c6d70b24a7d1df4801a25ef7aa3bf04ba6adf81220252348c058ef02.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:49 +0000
+
+
+Started GET "/assets/clockpicker/clockpicker.self-deaa91240c3942d66f13535ae21a27428aae46788a4c542cb1dfc8dcde8e83ac.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:49 +0000
+
+
+Started GET "/assets/daterangepicker/daterangepicker.self-8e5c97523e79d14001e68acee9ff65b81a5548241c4d0f9fee561b3465fd34db.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:49 +0000
+
+
+Started GET "/assets/select2/select2.full.min.self-ea8f4eea0168a18c6f044f075d65bba15f5ff3b01cce09d828f6ab5d9f8344b5.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:49 +0000
+
+
+Started GET "/assets/touchspin/jquery.bootstrap-touchspin.min.self-49a3b7fd3823efb734a4ac893ba97d5953da8a6182c7f6c639832efd117a4098.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:49 +0000
+
+
+Started GET "/assets/bootstrap-markdown/markdown.self-32d1be2cc82c926a001041848802183625e6dec7d0ff7a311800e2d54cad3ce6.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:49 +0000
+
+
+Started GET "/assets/bootstrap-tagsinput/bootstrap-tagsinput.self-6838daba9201ad885ef13c42f4570ff1caea4d4fd602f491493cbbcd038aea7b.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:49 +0000
+
+
+Started GET "/assets/bootstrap-markdown/bootstrap-markdown.self-91f7a5401d32f092abd19b39e594d301cb03eb5dcfe6fa013f0a86f05b376595.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:49 +0000
+
+
+Started GET "/assets/dualListbox/jquery.bootstrap-duallistbox.self-457a0331c3cf8ce4308d5aca21c4db0a82342e8ea8da8bbc689121c64ec775c0.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:49 +0000
+
+
+Started GET "/assets/typehead/bootstrap3-typeahead.min.self-4dca83db3515029e69804109cfce3dba4a529df2d93fe696e37ace0b4f294d30.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:49 +0000
+
+
+Started GET "/assets/codemirror/codemirror.self-6d6f4c305426bfb370d533e6fb651b4af8629228658f308c82b9314619853f4d.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:49 +0000
+
+
+Started GET "/assets/profile_small-01fd211db7a9d9f281affba9e48a7396d8e9ba4794c458e4aeea0d1833b0be3a.jpg" for 10.0.2.2 at 2016-12-06 09:19:49 +0000
+
+
+Started GET "/assets/codemirror/mode/javascript/javascript.self-e63f31a0c3904daa7c8543e22ba60248c95e1a2dedbacba236ff6872defedacf.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:49 +0000
+
+
+Started GET "/assets/userhome.self-a1f856adee1d3ba51b81d3b74bd9904d735257018cb7805f44443777863b2c53.js?body=1" for 10.0.2.2 at 2016-12-06 09:19:49 +0000
+
+
+Started GET "/assets/a1-3347c503260f35f12e05e4fb8aeee72a8f42c3a6b5d35722bdf2eeb3cc006be9.jpg" for 10.0.2.2 at 2016-12-06 09:19:49 +0000
+
+
+Started GET "/assets/a2-22c5f70142282015b1aa1e8611a895fed56efb2db0045afe0fa124d2a1973d3c.jpg" for 10.0.2.2 at 2016-12-06 09:19:49 +0000
+
+
+Started GET "/assets/p3-a274d168792b8a601b276e2cd34cf837d38a37796e3aead4699598ebd9ea03f8.jpg" for 10.0.2.2 at 2016-12-06 09:19:49 +0000
+
+
+Started GET "/assets/a3-8dd4e1298cba0e9a96d69480dad8c9eed54d66eeb6c1b8b2f0bd15ea54779b11.jpg" for 10.0.2.2 at 2016-12-06 09:19:49 +0000
+
+
+Started GET "/assets/a4-cdc1ea54c688f34a97c8b4e4ac4d364f17bec50c10c5d3417eb0e128778076ac.jpg" for 10.0.2.2 at 2016-12-06 09:19:49 +0000
+
+
+Started GET "/assets/a8-19ef84b7d694fe0b264a03cf5237e837311e869c0e3779e50e976339749844bb.jpg" for 10.0.2.2 at 2016-12-06 09:19:49 +0000
+
+
+Started GET "/assets/patterns/header-profile-c05909898218a521d3bd19ba09a9a43338de6de5fdf1d3fc771b0ec28ae416c5.png" for 10.0.2.2 at 2016-12-06 09:19:49 +0000
+
+
+Started GET "/assets/a7-c7806379f3161478bd1e297f60f0822b97d7e39c0a2087c0badbafe79c4abef1.jpg" for 10.0.2.2 at 2016-12-06 09:19:49 +0000
+
+
+Started GET "/assets/chosen/chosen-sprite.png" for 10.0.2.2 at 2016-12-06 09:19:49 +0000
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for 10.0.2.2 at 2016-12-06 09:19:49 +0000
+
+
+Started GET "/assets/ionRangeSlider/images/sprite-skin-flat.png" for 10.0.2.2 at 2016-12-06 09:19:49 +0000
+
+
+Started GET "/userhome/education" for 10.0.2.2 at 2016-12-06 09:19:56 +0000
+
+AbstractController::ActionNotFound (The action 'education' could not be found for UserhomeController):
+  actionpack (4.2.3) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.3) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.3) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `call'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.3) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.3) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 10.0.2.2 at 2016-12-06 09:43:50 +0000
+Processing by UserhomeController#personal as HTML
+  Rendered userhome/personal.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_skinconfig.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (1.4ms)
+  Rendered layouts/_topnavbar.html.erb (2.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_rightsidebar.html.erb (4.7ms)
+Completed 200 OK in 181ms (Views: 179.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/chosen/chosen-sprite.png" for 10.0.2.2 at 2016-12-06 09:43:51 +0000
+
+
+Started GET "/" for 10.0.2.2 at 2016-12-06 09:45:38 +0000
+Processing by UserhomeController#personal as HTML
+  Rendered userhome/personal.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_skinconfig.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_topnavbar.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_rightsidebar.html.erb (4.9ms)
+Completed 200 OK in 196ms (Views: 195.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/iCheck/custom.self-4e98e0ab923db379510575d0cd9b1f6b32fe6c2737db9de784119b29d80e405e.css?body=1" for 10.0.2.2 at 2016-12-06 09:45:38 +0000
+
+
+Started GET "/assets/colorpicker/css/bootstrap-colorpicker.min.self-c75560f6acb4843c5258431163165c5d0183dc5e2f79e0053d3f458c26dd692b.css?body=1" for 10.0.2.2 at 2016-12-06 09:45:38 +0000
+
+
+Started GET "/assets/cropper/cropper.min.self-e085c86b5db6a1ed8878bb4fcb0fe23b5631155ee0081e19e23afb25e94906cb.css?body=1" for 10.0.2.2 at 2016-12-06 09:45:38 +0000
+
+
+Started GET "/assets/datapicker/datepicker3.self-cfa0b477522abdf51bcb8c0bb350b1e38141bdf4d8b14dfc53efb6a103c90bdf.css?body=1" for 10.0.2.2 at 2016-12-06 09:45:38 +0000
+
+
+Started GET "/assets/ionRangeSlider/ion.rangeSlider.self-102ed6d583e0f0c4363004982ff2975e3f83019d25de7e23745153d8ac52bfd9.css?body=1" for 10.0.2.2 at 2016-12-06 09:45:38 +0000
+
+
+Started GET "/assets/ionRangeSlider/ion.rangeSlider.skinFlat.self-a9678380a5fdcb49f78b62d6e8641b5d4a0ebbafcc770b92069ae630b8d2e1d3.css?body=1" for 10.0.2.2 at 2016-12-06 09:45:38 +0000
+
+
+Started GET "/assets/steps/jquery.steps.self-564cea8e2a652f4370e7777b3d93e3d62b7cd719099aab1d3163fdc2a299efa8.css?body=1" for 10.0.2.2 at 2016-12-06 09:45:38 +0000
+
+
+Started GET "/assets/jasny/jasny-bootstrap.min.self-be0f85e926dc058daa270a2f1978b3dbf7629d6a0e7feda80158644daeee3e28.css?body=1" for 10.0.2.2 at 2016-12-06 09:45:38 +0000
+
+
+Started GET "/assets/dropzone/basic.self-be0469a004d4d65f39e767ea285f148c8330f8904af10c284e9297df7c40723e.css?body=1" for 10.0.2.2 at 2016-12-06 09:45:38 +0000
+
+
+Started GET "/assets/summernote/summernote.self-eb6a6894d6e3108aba5d08fd4740cd9f01b40ec94b331a17b1441d4aae3406c2.css?body=1" for 10.0.2.2 at 2016-12-06 09:45:38 +0000
+
+
+Started GET "/assets/summernote/summernote-bs3.self-972005d9d65c7bb1842821c28847269a9d07420f0e2af6f79da5413e6b761957.css?body=1" for 10.0.2.2 at 2016-12-06 09:45:38 +0000
+
+
+Started GET "/assets/dropzone/dropzone.self-86d3b50e8ce9584e9045a86d03f12ae5b89b5799cfdb819efc7862b95a906c08.css?body=1" for 10.0.2.2 at 2016-12-06 09:45:38 +0000
+
+
+Started GET "/assets/nouslider/jquery.nouislider.self-6a1bcdb9e19b99c342e2d49fb9cfe4eb62c2e1aa89abf548cd3d7974ac9605c3.css?body=1" for 10.0.2.2 at 2016-12-06 09:45:38 +0000
+
+
+Started GET "/assets/daterangepicker/daterangepicker-bs3.self-3cdebce209651fd191870a9d5f2e7802f2f7dba999410ecceedd103ae2c3d918.css?body=1" for 10.0.2.2 at 2016-12-06 09:45:38 +0000
+
+
+Started GET "/assets/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.self-984d6e82dce7262e5c27733ab7c2521a1f25f4a3ec2a1839620e053d3eec78bb.css?body=1" for 10.0.2.2 at 2016-12-06 09:45:38 +0000
+
+
+Started GET "/assets/bootstrap-tagsinput/bootstrap-tagsinput.self-f9d29846b772f9c28fe4a0ffe266bf4411a7e7b4650898353af2731a4b3f1359.css?body=1" for 10.0.2.2 at 2016-12-06 09:45:38 +0000
+
+
+Started GET "/assets/touchspin/jquery.bootstrap-touchspin.min.self-3a4138fbac2fad6ce52581e475de7318a1d955a5d19828afd74d7892b6140b29.css?body=1" for 10.0.2.2 at 2016-12-06 09:45:38 +0000
+
+
+Started GET "/assets/animate/animate.self-c68696b7a5a7ae005b8b881d242e513254447b55d309488e4cc8d844b898a784.css?body=1" for 10.0.2.2 at 2016-12-06 09:45:38 +0000
+
+
+Started GET "/assets/bootstrap-markdown/bootstrap-markdown.min.self-4a541219e81286b9224483974163bfa50b32083312ab4e774a3865c30d90099e.css?body=1" for 10.0.2.2 at 2016-12-06 09:45:38 +0000
+
+
+Started GET "/assets/select2/select2.min.self-6d1dbbfdb1e2ed35c13c0b045daf4bc490ab52f42e9d260d1b3fce8704860383.css?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/switchery/switchery.self-ee9acac097663bde9df3bae2400421c72d98b514db88b75a4ad6826c1a7328b0.css?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/dualListbox/bootstrap-duallistbox.min.self-0f3139328032a1dc1c4ad74b6373ece5796f56003948bfd8a9ae8f08376acfc7.css?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/clockpicker/clockpicker.self-b02dee054c24eef1b956a329b48d83dd89cc04d9494960b723ff09b52d56e37c.css?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/style.self-7700edbe62ca4f03034bea3989f96c0e651753a7bcf5cd3a9e321c573446b12e.css?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/codemirror/codemirror.self-7d548963711359c4638ec787ca590abde8886ec3ebb9983230193ff8bcef3824.css?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/chosen/bootstrap-chosen.self-6d7a12bee85cdf88df8fce9f0358bee1a5940502f7c98a0c2409d0361428a379.css?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/userhome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/application.self-a07f2f758518b7164b7741b3dc17627baae988de3f41f86fe60043f6feb4e16c.css?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/codemirror/ambiance.self-8d95a273c5d1abd77a0de98a6269edd24222cf1dc85e4d106ca50c7856accab5.css?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/jquery/jquery-2.1.1.self-cdd78b0dc506b751b442bb5e5298ea658af2ee55e46ccb88ba5583570ca686e2.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/font-awesome.self-2d17540bab3759939e910ca38a695f014e0c777ded3ad7a01c4658b9d3fc980d.css?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/metisMenu/jquery.metisMenu.self-587029531d977fc7fa10623dd670189a298bd606124c23fc2edd051da5b0c914.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/peity/jquery.peity.min.self-87cebcc460783e0d61faa78980090e6fab75e4ab5c80b776c5f38e394c1a54bd.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/inspinia.self-7ffe17336f75a7999e2637c24ab6de1e67711f21d4466c332ef38b6039c61a06.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/pace/pace.min.self-9bf6d667514a59744d5db2c9392aaf5595dec9c131a425ababa1cb8cddb814f2.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/slimscroll/jquery.slimscroll.min.self-a2008e2992d055fbe5108d326a54c3083f843da1a30240d2b2e1f706716fa03e.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/iCheck/icheck.min.self-9f36bbf45d40064879b45027799fce4c617d7ceef312dfdd81a0a724754fb44a.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/validate/jquery.validate.min.self-e27883b3cf3329ba64a4b65fcfabe45102fe636c21660356f51619b5ede9e43f.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/summernote/summernote.min.self-98baa5b7d6c91f71ac7c418e94c545c6620cfbc5c28da8dde12eaa812548db71.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/application.self-0250c430e7a2284fb865f9b5e4b314f2ef08d0d1eae2f5f4791fa0b28e3c8b6b.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/dropzone/dropzone.self-ba7ef3899c1cac37283f5611116c0ad77f9369ea5bd727ba187fbcbb20d271d9.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/staps/jquery.steps.min.self-94d2c38e75bd48129fbe0e9a0f7af3c5b914252fd682dde4088f0b300101db6c.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/colorpicker/bootstrap-colorpicker.min.self-a634dfce68bf2f85f5caf5ebec8fc4828622f502ea061d985e720f7f0f6f99ad.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/datapicker/bootstrap-datepicker.self-01cd3bf86245b38d0415b39e29f486b62189cc7b2c9de85511529341595db0bd.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/cropper/cropper.min.self-b1f7900407e3412e3dfa02d7017ba0ccab4231fb2a7a1a27c9f00d334f7476f6.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/ionRangeSlider/ion.rangeSlider.min.self-869e5fa5d1bd5cab9853946e38de3ba030f5bdd976b8dab7f2a5146995a4bdda.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/nouslider/jquery.nouislider.min.self-06e7e9ccacfa13495762ca7083ffb0586303af26766b5846119d36d68e0b02b2.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/jasny/jasny-bootstrap.min.self-4baa524b709c1302251cb1003d063e410d3d4457c7e3d07801b6a185343688fc.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/chosen/chosen.jquery.self-2cbdc889c6d70b24a7d1df4801a25ef7aa3bf04ba6adf81220252348c058ef02.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/jsKnob/jquery.knob.self-67754b82b0a96c71e05363ba75a20d060fcf9835a4c9b33a5bc3145a31e340f2.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/clockpicker/clockpicker.self-deaa91240c3942d66f13535ae21a27428aae46788a4c542cb1dfc8dcde8e83ac.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/switchery/switchery.self-af6af954fddcd82662060b2f72e21c50231d7179922853a18f1cce35d550764b.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/daterangepicker/daterangepicker.self-8e5c97523e79d14001e68acee9ff65b81a5548241c4d0f9fee561b3465fd34db.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/select2/select2.full.min.self-ea8f4eea0168a18c6f044f075d65bba15f5ff3b01cce09d828f6ab5d9f8344b5.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/bootstrap-markdown/bootstrap-markdown.self-91f7a5401d32f092abd19b39e594d301cb03eb5dcfe6fa013f0a86f05b376595.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/touchspin/jquery.bootstrap-touchspin.min.self-49a3b7fd3823efb734a4ac893ba97d5953da8a6182c7f6c639832efd117a4098.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/fullcalendar/moment.min.self-47f3f0f0f331b237c5584a60bfc321301c0d9a5651dd70c635af1e17be68d5bb.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/bootstrap-tagsinput/bootstrap-tagsinput.self-6838daba9201ad885ef13c42f4570ff1caea4d4fd602f491493cbbcd038aea7b.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/dualListbox/jquery.bootstrap-duallistbox.self-457a0331c3cf8ce4308d5aca21c4db0a82342e8ea8da8bbc689121c64ec775c0.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/p3-a274d168792b8a601b276e2cd34cf837d38a37796e3aead4699598ebd9ea03f8.jpg" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/codemirror/codemirror.self-6d6f4c305426bfb370d533e6fb651b4af8629228658f308c82b9314619853f4d.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/profile_small-01fd211db7a9d9f281affba9e48a7396d8e9ba4794c458e4aeea0d1833b0be3a.jpg" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/codemirror/mode/javascript/javascript.self-e63f31a0c3904daa7c8543e22ba60248c95e1a2dedbacba236ff6872defedacf.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/typehead/bootstrap3-typeahead.min.self-4dca83db3515029e69804109cfce3dba4a529df2d93fe696e37ace0b4f294d30.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/bootstrap-markdown/markdown.self-32d1be2cc82c926a001041848802183625e6dec7d0ff7a311800e2d54cad3ce6.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/a7-c7806379f3161478bd1e297f60f0822b97d7e39c0a2087c0badbafe79c4abef1.jpg" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/userhome.self-a1f856adee1d3ba51b81d3b74bd9904d735257018cb7805f44443777863b2c53.js?body=1" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/a1-3347c503260f35f12e05e4fb8aeee72a8f42c3a6b5d35722bdf2eeb3cc006be9.jpg" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/a3-8dd4e1298cba0e9a96d69480dad8c9eed54d66eeb6c1b8b2f0bd15ea54779b11.jpg" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/a4-cdc1ea54c688f34a97c8b4e4ac4d364f17bec50c10c5d3417eb0e128778076ac.jpg" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/a2-22c5f70142282015b1aa1e8611a895fed56efb2db0045afe0fa124d2a1973d3c.jpg" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/a8-19ef84b7d694fe0b264a03cf5237e837311e869c0e3779e50e976339749844bb.jpg" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/fontawesome-webfont-e3870de89716b72cb61a4bba0e17c75783b361cdaba35ea96961c3070bd8ca18.woff?v=4.3.0" for 10.0.2.2 at 2016-12-06 09:45:39 +0000
+
+
+Started GET "/assets/patterns/header-profile-c05909898218a521d3bd19ba09a9a43338de6de5fdf1d3fc771b0ec28ae416c5.png" for 10.0.2.2 at 2016-12-06 09:45:40 +0000
+
+
+Started GET "/assets/ionRangeSlider/images/sprite-skin-flat.png" for 10.0.2.2 at 2016-12-06 09:45:40 +0000
+
+
+Started GET "/assets/fonts/glyphicons-halflings-regular.woff" for 10.0.2.2 at 2016-12-06 09:45:41 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/fonts/glyphicons-halflings-regular.woff"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (22.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (80.9ms)
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-a26394f7ede100ca118eff2eda08596275a9839b959c226e15439557a5a80742.woff" for 10.0.2.2 at 2016-12-06 09:45:41 +0000
+
+
+Started GET "/assets/fonts/glyphicons-halflings-regular.ttf" for 10.0.2.2 at 2016-12-06 09:45:41 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/fonts/glyphicons-halflings-regular.ttf"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (48.0ms)
+
+
+Started GET "/assets/fonts/glyphicons-halflings-regular.svg" for 10.0.2.2 at 2016-12-06 09:45:41 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/fonts/glyphicons-halflings-regular.svg"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (48.7ms)
+
+
+Started GET "/userhome/education" for 10.0.2.2 at 2016-12-06 09:48:41 +0000
+Processing by UserhomeController#education as HTML
+  Rendered userhome/education.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_skinconfig.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_topnavbar.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_rightsidebar.html.erb (5.0ms)
+Completed 200 OK in 185ms (Views: 184.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/chosen/chosen-sprite.png" for 10.0.2.2 at 2016-12-06 09:48:42 +0000
+
+
+Started GET "/userhome/personal" for 10.0.2.2 at 2016-12-06 09:48:45 +0000
+Processing by UserhomeController#personal as HTML
+  Rendered userhome/personal.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_skinconfig.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (1.4ms)
+  Rendered layouts/_topnavbar.html.erb (2.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_rightsidebar.html.erb (4.9ms)
+Completed 200 OK in 180ms (Views: 179.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/chosen/chosen-sprite.png" for 10.0.2.2 at 2016-12-06 09:48:46 +0000
