@@ -9,8 +9,8 @@
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                         <span class="clear">
                             <span class="block m-t-xs">
-                                <strong class="font-bold">David Williams</strong>
-                            </span> <span class="text-muted text-xs block">Art Director <b class="caret"></b></span>
+                                <strong class="font-bold">Carlos Salamanca</strong>
+                            </span> <span class="text-muted text-xs block">IT Director <b class="caret"></b></span>
                         </span>
                     </a>
                     <ul class="dropdown-menu animated fadeInRight m-t-xs">
@@ -29,15 +29,15 @@
                     IN+
                 </div>
             </li>
-            <li class="<%= is_active_controller('forms') %>">
+            <li class="<%= is_active_controller('userhome') %>">
                 <a href="#"><i class="fa fa-user"></i> <span class="nav-label" data-i18n="nav.forms">Perfil</span></a>
                 <ul class="nav nav-second-level collapse <%= is_active_controller('userhome') %>">
+                    <li class="<%= is_active_action('personal') %>"><%= link_to "Personal", userhome_personal_path %></li>
                     <li class="<%= is_active_action('education') %>"><%= link_to "Educacion", userhome_education_path %></li>
-                    <li class="<%= is_active_action('experience') %>"><%= link_to "Experiencia", userhome_experience_path %> </li>
-                    <li class="<%= is_active_action('hobbies') %>"><%= link_to "Hobbies", userhome_hobbies_path %> </li>
-                    <li class="<%= is_active_action('languages') %>"><%= link_to "Idiomas", userhome_languages_path %> </li>
-                    <li class="<%= is_active_action('personal') %>"><%= link_to "Personal", userhome_personal_path %> </li>
-                    <li class="<%= is_active_action('volunteering') %>"><%= link_to "Voluntariado", userhome_volunteering_path %> </li>
+                    <li class="<%= is_active_action('experience') %>"><%= link_to "Experiencia", userhome_experience_path %></li>
+                    <li class="<%= is_active_action('hobbies') %>"><%= link_to "Hobbies", userhome_hobbies_path %></li>
+                    <li class="<%= is_active_action('languages') %>"><%= link_to "Idiomas", userhome_languages_path %></li>
+                    <li class="<%= is_active_action('volunteering') %>"><%= link_to "Voluntariado", userhome_volunteering_path %></li>
                 </ul>
             </li>
         </ul>
