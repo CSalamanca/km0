@@ -53,24 +53,14 @@
 							</div>
 						</div>
 						<div class="col-md-12 form-group">
-
-
-                    <div class="click2edit wrapper p-md">
-                        <h3>Lorem Ipsum is simply</h3>
-                        dummy text of the printing and typesetting industry. <strong>Lorem Ipsum has been the industry's</strong> standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-                        typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
-                        <br />
-                        <br />
-                        <ul>
-                            <li>Remaining essentially unchanged</li>
-                            <li>Make a type specimen book</li>
-                            <li>Unknown printer</li>
-                        </ul>
-                    </div>
-
-
-
+							<div class="summernote">
+								<h3>Explicacion de prueba</h3>
+								Trabajo para <strong>UniON</strong>. Y cada dia soy mas feliz.
+								<ul>
+								<li>Prueba apartado 1</li>
+								<li>Prueba apartado 2</li>
+								</ul>
+							</div>
 						</div>
 					</form>
 					</div>
@@ -88,6 +78,30 @@
 
 
 $(function() {
+
+    // $('.summernote').summernote();
+
+$('.summernote').summernote({
+  toolbar: [
+    // [groupName, [list of button]]
+    ['type', ['style']],
+    ['style', ['bold', 'italic', 'underline', 'clear']],
+    ['para', ['ul', 'ol', 'paragraph']],
+  ]
+});
+
+    var edit = function () {
+        $('.click2edit').summernote({ focus: true });
+    };
+
+    $("#edit").click(function () {
+        $('.click2edit').summernote({ focus: true });
+    });
+
+    $("#save").click(function () {
+        var aHTML = $('.click2edit').code(); //save HTML If you need(aHTML: array).
+        $('.click2edit').destroy();
+    });
 
 var $image = $(".image-crop > img")
 $($image).cropper({
