@@ -14,6 +14,7 @@ Myapp::Application.routes.draw do
 
   get "companyhome/index"
   get "companyhome/companydata"
+  get "companyhome/contacts"
 
   get "layoutsoptions/index"
   get "layoutsoptions/off_canvas"

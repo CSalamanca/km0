@@ -46,6 +46,7 @@
                 <a href="#"><i class="fa fa-user"></i> <span class="nav-label" data-i18n="nav.forms">Compañia</span></a>
                 <ul class="nav nav-second-level collapse <%= is_active_controller('companyhome') %>">
                     <li class="<%= is_active_action('companydata') %>"><%= link_to "Datos principales", companyhome_companydata_path %></li>
+                    <li class="<%= is_active_action('contacts') %>"><%= link_to "Contactos", companyhome_contacts_path %></li>
                 </ul>
             </li>
         </ul>
