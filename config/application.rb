@@ -22,6 +22,8 @@ module Myapp
 
     config.assets.precompile += [ 'userhome.css' ]
     config.assets.precompile += [ 'userhome.js' ]
+    config.assets.precompile += [ 'companyhome.css' ]
+    config.assets.precompile += [ 'companyhome.js' ]
 
   end
 end
